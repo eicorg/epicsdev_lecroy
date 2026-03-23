@@ -87,7 +87,7 @@ Performance depends on the oscilloscope model, network interface (1GbE vs 10GbE)
 
 ## License
 
-MIT License - see LICENSE file for details.
+BSD 3-Clause LicenseLicense - see LICENSE file for details.
 
 ## Author
 
