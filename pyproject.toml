@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "epicsdev_lecroy"
+version = "1.0.0"
+authors = [
+  { name="Andrey Sukhanov", email="sukhanov@bnl.gov" },
+]
+description = "EPICS PVAccess server for LeCroy oscilloscopes"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "p4p", "epicsdev"
+]
+[project.urls]
+"Homepage" = "https://github.com/ASukhanov/epicsdev_lecroy"
+"Bug Tracker" = "https://github.com/ASukhanov/epicsdev_lecroy"
